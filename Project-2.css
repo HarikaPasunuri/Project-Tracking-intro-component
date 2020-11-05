@@ -1,0 +1,23 @@
+body{
+    margin-top:50px;
+}
+.container{
+    width:1024px;
+    margin:0px;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+ @media only screen and (max-width:480px){
+    .container{
+        width:430px;
+        margin:0px;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+     
+    
+ }
